@@ -7,14 +7,17 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "@babylonjs/core": "^4.1.0-alpha.15",
+    "@babylonjs/core": "^4.0.3",
+    "@babylonjs/loaders": "^4.0.3",
     "@fortawesome/fontawesome-free": "^5.8.2",
     "@google/model-viewer": "^0.5.1",
     "comlink": "^4.0.2",
     "core-js": "^2.6.5",
+    "prismjs": "^1.17.1",
     "roboto-fontface": "*",
     "three": "^0.107.0",
     "vue": "^2.6.10",
+    "vue-prism-component": "^1.1.1",
     "vue-router": "^3.0.3",
     "vuetify": "^2.0.0"
   },

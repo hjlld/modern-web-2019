@@ -39,7 +39,14 @@ export default {
 
         this.modelRenderer = new ModelRenderer( this.id, canvas, canvas.clientWidth, canvas.clientHeight );
 
-        this.modelRenderer.startRender()
+        this.modelRenderer.loadModel()
+
+        .then( () => {
+
+            this.modelRenderer.startRender()
+
+        })
+
 
 
         // let wrappedWorker = wrap( new Worker( './worker/OffscreenModelRenderer.js', { name: 'OffsrceenModelRenderer-Worker', type: 'module' } ) );
@@ -52,11 +59,7 @@ export default {
 
     beforeDestroy: async function () {
 
-        if ( this.offscreenModelRenderer ) {
 
-            await this.offscreenModelRenderer.close();
-
-        }
         
     }
 

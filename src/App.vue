@@ -147,4 +147,7 @@ export default {
 html, body {
     overflow-y: hidden !important;
 }
+a {
+    text-decoration: none;
+}
 </style>

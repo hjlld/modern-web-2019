@@ -40,7 +40,7 @@ export default {
             {
                 url: 'https://twitter.com/i/status/1151497315934494722',
                 title: 'AR Pingpong Game',
-                img: '/img/n64_simulator.png'
+                img: '/img/ar_pingpong.png'
             },
             {
                 url: 'https://weibo.com/tv/v/I1oqGlYjS?fid=1034:4403322317378716',
