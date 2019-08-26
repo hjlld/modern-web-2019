@@ -6,19 +6,23 @@
                     <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">Web Component</a>
                 </v-flex>
                 <v-flex xs12 class="display-1">
-                    <code> `<` </code>，懶人必備！
+                    <code>&lt;model-viewer&gt;</code>，懶人必備！
                 </v-flex>
-                <v-flex xs8>
-                    <highlight-code :code="mainCode" fontClass="headline"></highlight-code>
+                <v-flex xs12 class="display-1">
+                    <a href="https://github.com/GoogleWebComponents" target="_blank">GoogleWebComponents</a> / <a href="https://github.com/GoogleWebComponents/model-viewer" target="_blank">model-viewer</a>
                 </v-flex>
-                <v-flex xs4>
-                    <highlight-code :code="workerCode" fontClass="headline"></highlight-code>
+                <v-flex xs6>
+                    <highlight-code :code="code" fontClass="headline"></highlight-code>
+                </v-flex>
+                <v-flex xs6 fill-height style="height: 500px;">
+                    <model-viewer src="/Model/YoungPriestess/scene.gltf" alt="A 3D model of an astronaut" camera-controls background-color="#628fb0" preload class="google-model-viewer"></model-viewer>
                 </v-flex>
             </v-layout>
         </v-container>
     </v-content>
 </template>
 <script>
+import '@google/model-viewer';
 import HighlightCode from '../../components/HighlightCode';
 
 export default {
@@ -31,38 +35,32 @@ export default {
 
     data: () => ({
 
-        mainCode: `
-    // main.js
+        code: `
+    import '@google/model-viewer';
 
-    import { wrap, transfer } from 'comlink';
-
-    let wrapper = wrap( new Worker( './worker.js' ) );
-
-    let myClass = await new wrapper();
-
-    await myClass.doSomething( transfer( typedArray, [ typedArray.buffer ] ) );
-
-    
+    <model-viewer 
+        src="/Model/LittleTokyo/scene.gltf" 
+        alt="A 3D model of manga girl" 
+        camera-controls 
+        background-color="#628fb0" 
+        preload 
+        class="google-model-viewer"
+    ></model-viewer>
         `,
-
-        workerCode: `
-    // worker.js
-
-    import { expose } from 'comlink';
-
-    class myClass {
-
-        doSomething( typedArray ) {}
-
-    }
-
-    expose( myClass, self );
-        `
-
-
     })
 
 }
 </script>
 <style scoped>
+.google-model-viewer {
+
+    width: 100%;
+
+    height: 100%;
+
+    outline: none;
+
+    touch-action: none;
+
+}
 </style>

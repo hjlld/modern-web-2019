@@ -64,14 +64,49 @@ export default new Router({
       component: () => import(/* webpackChunkName: "compression" */ './views/Performance/Compression.vue')
     },
     {
-      path: '/easeytouse',
+      path: '/easytouse',
       name: 'easeytouse',
       component: () => import(/* webpackChunkName: "easeytouse" */ './views/EasyToUse/Index.vue')
     },
     {
-      path: '/easeytouse/webcomponents',
+      path: '/easytouse/webcomponents',
       name: 'webcomponents',
       component: () => import(/* webpackChunkName: "webcomponents" */ './views/EasyToUse/WebComponents.vue')
+    },
+    {
+      path: '/easytouse/framework',
+      name: 'framework',
+      component: () => import(/* webpackChunkName: "framework" */ './views/EasyToUse/Framework.vue')
+    },
+    {
+      path: '/easytouse/ecs',
+      name: 'ecs',
+      component: () => import(/* webpackChunkName: "ecs" */ './views/EasyToUse/ECS.vue')
+    },
+    {
+      path: '/easytouse/ecosystem',
+      name: 'ecosystem',
+      component: () => import(/* webpackChunkName: "ecosystem" */ './views/EasyToUse/Ecosystem.vue')
+    },
+    {
+      path: '/future',
+      name: 'future',
+      component: () => import(/* webpackChunkName: "future" */ './views/Future/Index.vue')
+    },
+    {
+      path: '/future/webgpu',
+      name: 'webgpu',
+      component: () => import(/* webpackChunkName: "webgpu" */ './views/Future/WebGPU.vue')
+    },
+    {
+      path: '/future/native',
+      name: 'native',
+      component: () => import(/* webpackChunkName: "native" */ './views/Future/Native.vue')
+    },
+    {
+      path: '/thanks',
+      name: 'thanks',
+      component: () => import(/* webpackChunkName: "thanks" */ './views/End.vue')
     },
   ]
 })

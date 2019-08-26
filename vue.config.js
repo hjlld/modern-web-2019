@@ -5,5 +5,8 @@ module.exports = {
       plugins: [
         new WorkerPlugin()
       ]
-    }
+    },
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/modern-web-2019/'
+    : '/'
   }

@@ -3,16 +3,16 @@
         <v-app-bar app :collapse="!ifShowDrawer" color="primary" clipped-left>
             <v-app-bar-nav-icon color="secondary" @click.stop="ifShowDrawer = !ifShowDrawer"></v-app-bar-nav-icon>
             <v-toolbar-title class="headline text-uppercase">
-                <span>請在網頁中使用 3D</span>
+                <span class="white--text">請在網頁中使用 3D</span>
                 <span class="font-weight-light grey--text text--lighten-2 subtitle-2 pl-3">HiWebGL</span>
             </v-toolbar-title>
             <v-spacer></v-spacer>
         </v-app-bar>
         <v-navigation-drawer app left clipped v-model="ifShowDrawer">
             <v-list shaped>
-                <v-list-item-group :value="true" v-for="( chapter, i ) in contentTable" :key="i">
+                <v-list-item-group :value="currentSelected( i )" v-for="( chapter, i ) in contentTable" :key="i">
                     <v-subheader>{{ chapter.mainTitle }}</v-subheader>
-                    <v-list-item v-for="(slide, i) in chapter.slides" :key="i" inset>
+                    <v-list-item v-for="(slide, j) in chapter.slides" :key="j" inset @click="jump(i, j)">
                         <v-list-item-icon>
                             <v-icon v-text="slide.icon"></v-icon>
                         </v-list-item-icon>
@@ -86,6 +86,31 @@ export default {
     },
     methods: {
 
+        jump( chapterIndex, slideIndex ) {
+
+            this.chapterIndex = chapterIndex;
+
+            this.slideIndex = slideIndex;
+
+            this.$router.push( { path: this.contentTable[ this.chapterIndex ].slides[ this.slideIndex ].path } );
+
+
+        },
+
+        currentSelected( chapterIndex ) {
+
+            if ( this.chapterIndex === chapterIndex ) {
+
+                return this.slideIndex;
+
+            } else {
+
+                return false
+
+            }
+
+        },
+
         next() {
 
             if ( this.slideIndex === this.contentTable[ this.chapterIndex ].slides.length - 1 ) {
@@ -149,5 +174,29 @@ html, body {
 }
 a {
     text-decoration: none;
+}
+/*定义滚动条高宽及背景
+ 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+    width:4px;
+    height:16px;
+    background-color:#F5F5F5;
+}
+/*定义滚动条轨道
+ 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius:10px;
+    background-color:#F5F5F5;
+}
+/*定义滑块
+ 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    border-radius:10px;
+    box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+    background-color:#555;
 }
 </style>

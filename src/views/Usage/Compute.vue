@@ -5,39 +5,17 @@
                 <v-flex xs12 class="display-3 font-weight-light text-center mb-5">
                     并行計算 - WebGL 2.0 Compute Shader
                 </v-flex>
-                <v-flex xs12 class="title font-weight-light text-center">
+                <v-flex xs12 class="display-1 font-weight-light text-center">
                     雙調排序 - 這是一種可以并行計算的排序方法
                 </v-flex>
-                <v-flex xs6>
+                <v-flex xs4>
                     <v-card hover>
-                        <v-img
-                            contain
-                            src="/img/cpu_sort.png" 
-                            height="300px">
-                        </v-img>
-                        <v-container fill-height fluid class="black--text">
-                            <v-layout fill-height>
-                                <v-flex xs12 align-end flexbox>
-                                    CPU Sort
-                                </v-flex>
-                            </v-layout>
-                        </v-container>
+                        <highlight-code :code="cpuCode"></highlight-code>
                     </v-card>
                 </v-flex>
-                <v-flex xs6>
+                <v-flex xs8 >
                     <v-card hover>
-                        <v-img
-                            contain
-                            src="/img/gpu_sort.png" 
-                            height="300px">
-                        </v-img>
-                        <v-container fill-height fluid class="black--text">
-                            <v-layout fill-height>
-                                <v-flex xs12 align-end flexbox>
-                                    GPU Sort
-                                </v-flex>
-                            </v-layout>
-                        </v-container>
+                        <highlight-code :code="gpuCode"></highlight-code>
                     </v-card>
                 </v-flex>
                 <v-flex xs4>
@@ -78,8 +56,15 @@
 </template>
 <script>
 import { GPUSort } from '../../plugins/toolkit';
+import HighlightCode from '../../components/HighlightCode';
 
 export default {
+
+    components: {
+
+        'highlight-code': HighlightCode
+
+    },
 
     data: () => ({
 
@@ -93,7 +78,29 @@ export default {
 
         gpuTime: 0,
 
-        GPUSort: undefined
+        GPUSort: undefined,
+
+        cpuCode: `
+    Array.sort( 
+        
+        ( a, b ) => {
+
+            return a - b
+
+        }
+
+    ); `,
+
+        gpuCode: `
+    const canvas = document.createElement( 'canvas' );
+
+    // Create WebGL2ComputeRenderingContext
+    const context = canvas.getContext( 'webgl2-compute' );
+
+    context.dispatchCompute( threadgroupsPerGrid, 1, 1 ); 
+    
+    
+    `
 
     }),
 

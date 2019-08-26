@@ -57,7 +57,6 @@ class OffscreenShaderRenderer {
 
         this.scene.onBeforeRender = () => {
 
-            this.material.uniforms.iTime.value += 0.16;
 
         }
 
@@ -77,9 +76,11 @@ class OffscreenShaderRenderer {
 
         this.renderer.render( this.scene, this.camera );
 
+        this.material.uniforms.iTime.value += 0.016;
+
         requestAnimationFrame( () => {
 
-            this.startRender();
+            this.startRender( );
 
         })
 
