@@ -2,6 +2,7 @@
 node_modules
 /dist
 /public
+deploy.sh
 
 # local env files
 .env.local
