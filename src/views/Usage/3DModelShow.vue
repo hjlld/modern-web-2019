@@ -45,7 +45,7 @@ export default {
                 img: '/img/audi_q7.png'
             },
             {
-                url: 'https://demos.sketchfab.com/clients/audi/index.html',
+                url: 'http://tinyurl.com/y5marejw',
                 title: 'The Met Museum',
                 img: '/img/met_museum.png'
             },

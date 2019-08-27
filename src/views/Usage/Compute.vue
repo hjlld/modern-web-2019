@@ -97,9 +97,9 @@ export default {
     // Create WebGL2ComputeRenderingContext
     const context = canvas.getContext( 'webgl2-compute' );
 
+    ...
+
     context.dispatchCompute( threadgroupsPerGrid, 1, 1 ); 
-    
-    
     `
 
     }),
