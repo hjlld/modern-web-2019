@@ -53,7 +53,7 @@ export default {
         `,
 
         tsCode: `
-    // fib.ts
+    // fib.ts in TypeScript
 
     function fib( n: number ) {
 
@@ -71,7 +71,7 @@ export default {
         `,
 
         asCode: `
-    // fib.ts
+    // fib.ts in AssemlbyScript
 
     function fib( n: i32 ): i32 {
 
