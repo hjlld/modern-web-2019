@@ -104,6 +104,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "native" */ './views/Future/Native.vue')
     },
     {
+      path: '/credit',
+      name: 'credit',
+      component: () => import(/* webpackChunkName: "credit" */ './views/Credit.vue')
+    },
+    {
       path: '/thanks',
       name: 'thanks',
       component: () => import(/* webpackChunkName: "thanks" */ './views/End.vue')

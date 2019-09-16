@@ -1,0 +1,163 @@
+[
+    {
+        "mainTitle": "請在網頁中使用 3D",
+        "slides": [
+            {
+                "title": "首頁",
+                "name": "home",
+                "icon": "fa-file",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "mainTitle": "用途",
+        "slides": [
+            {
+                "title": "用途",
+                "name": "usage",
+                "path": "/usage",
+                "icon": "fa-file"
+            },
+            {
+                "title": "3D 模型展示",
+                "name": "3d-model-show",
+                "path": "/usage/3d-model-show",
+                "icon": "fa-file"
+            },
+            {
+                "title": "WebXR",
+                "name": "ar-vr",
+                "path": "/usage/ar-vr",
+                "icon": "fa-file"
+            },
+            {
+                "title": "用 3D 技術提升網頁的視覺和創意體驗",
+                "name": "webpage",
+                "path": "/usage/webpage",
+                "icon": "fa-file"
+            },
+            {
+                "title": "并行計算 - WebGL 2.0 Compute Shader",
+                "name": "compute",
+                "path": "/usage/compute",
+                "icon": "fa-file"
+            }
+        ]
+    },
+    {
+        "mainTitle": "性能問題",
+        "slides": [
+            {
+                "title": "性能問題",
+                "name": "performance",
+                "path": "/performance",
+                "icon": "fa-file"
+            },
+            {
+                "title": "OffscreenCanvas",
+                "name": "performance",
+                "path": "/performance/offscreencanvas",
+                "icon": "fa-file"
+            },
+            {
+                "title": "WebWorker",
+                "name": "performance/webworker",
+                "path": "/performance/webworker",
+                "icon": "fa-file"
+            },
+            {
+                "title": "WebAssembly",
+                "name": "performance/webassembly",
+                "path": "/performance/webassembly",
+                "icon": "fa-file"
+            },
+            {
+                "title": "Compression",
+                "name": "performance/compression",
+                "path": "/performance/compression",
+                "icon": "fa-file"
+            }
+        ]
+    },
+    {
+        "mainTitle": "易用性",
+        "slides": [
+            {
+                "title": "易用性",
+                "name": "easytouse",
+                "path": "/easytouse",
+                "icon": "fa-file"
+            },
+            {
+                "title": "Web Components",
+                "name": "webcomponents",
+                "path": "/easytouse/webcomponents",
+                "icon": "fa-file"
+            },
+            {
+                "title": "流行的 3D 框架",
+                "name": "framework",
+                "path": "/easytouse/framework",
+                "icon": "fa-file"
+            },
+            {
+                "title": "組件化的開發庫",
+                "name": "ecs",
+                "path": "/easytouse/ecs",
+                "icon": "fa-file"
+            },
+            {
+                "title": "豐富的生態",
+                "name": "ecosystem",
+                "path": "/easytouse/ecosystem",
+                "icon": "fa-file"
+            }
+        ]
+    },
+    {
+        "mainTitle": "網頁圖形的未來",
+        "slides": [
+            {
+                "title": "網頁圖形的未來",
+                "name": "future",
+                "path": "/future",
+                "icon": "fa-file"
+            },
+            {
+                "title": "WebGPU",
+                "name": "webgpu",
+                "path": "/future/webgpu",
+                "icon": "fa-file"
+            },
+            {
+                "title": "Native",
+                "name": "native",
+                "path": "/future/native",
+                "icon": "fa-file"
+            }
+        ]
+    },
+    {
+        "mainTitle": "版權",
+        "slides": [
+            {
+                "title": "版權",
+                "name": "credit",
+                "path": "/credit",
+                "icon": "fa-file"
+            }
+        ]
+    },
+    {
+        "mainTitle": "感謝！",
+        "slides": [
+            {
+                "title": "感謝！",
+                "name": "thanks",
+                "path": "/thanks",
+                "icon": "fa-file"
+            }
+        ]
+    }
+]
