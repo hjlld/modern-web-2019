@@ -10,7 +10,7 @@ export class HTTP {
 
         }
 
-        return fetch( url, param )
+        return fetch( process.env.BASE_URL.slice( 0, process.env.BASE_URL.length - 1 ) + url, param )
 
         .then( response => {
 
