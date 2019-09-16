@@ -8,5 +8,6 @@ module.exports = {
     },
     publicPath: process.env.NODE_ENV === 'production'
     ? '/modern-web-2019/'
-    : '/'
+    : '/',
+    outputDir: './docs'
   }
