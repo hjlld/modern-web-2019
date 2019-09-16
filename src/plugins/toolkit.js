@@ -10,7 +10,7 @@ export class HTTP {
 
         }
 
-        return fetch( process.env.BASE_URL.slice( 0, process.env.BASE_URL.length - 1 ) + url, param )
+        return fetch( '/modern-web-2019' + url, param )
 
         .then( response => {
 

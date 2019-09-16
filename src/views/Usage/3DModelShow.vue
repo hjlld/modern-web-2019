@@ -8,7 +8,7 @@
                 <v-flex xs4 v-for="( item, i ) in items" :key="i">
                     <v-card :href="item.url" target="_blank" hover>
                         <v-img
-                            :src="process.env.BASE_URL.slice( 0, process.env.BASE_URL.length - 1 ) + item.img" 
+                            :src="'/modern-web-2019' + item.img" 
                             height="200px">
                         </v-img>
                         <v-container fill-height fluid class="black--text">
