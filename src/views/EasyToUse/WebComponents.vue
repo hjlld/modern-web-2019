@@ -15,7 +15,7 @@
                     <highlight-code :code="code" fontClass="headline"></highlight-code>
                 </v-flex>
                 <v-flex xs6 fill-height style="height: 500px;">
-                    <model-viewer src="/Model/YoungPriestess/scene.gltf" alt="A 3D model of an astronaut" auto-rotate camera-controls background-color="#628fb0" preload class="google-model-viewer"></model-viewer>
+                    <model-viewer :src="process.env.BASE_URL.slice( 0, process.env.BASE_URL.length - 1 ) + '/Model/YoungPriestess/scene.gltf'" alt="A 3D model of an astronaut" auto-rotate camera-controls background-color="#628fb0" preload class="google-model-viewer"></model-viewer>
                 </v-flex>
             </v-layout>
         </v-container>
@@ -39,7 +39,7 @@ export default {
     import '@google/model-viewer';
 
     <model-viewer 
-        src="/Model/YoungPriestess/scene.gltf" 
+        src="./Model/YoungPriestess/scene.gltf" 
         alt="A 3D model of a girl" 
         auto-rotate
         camera-controls 

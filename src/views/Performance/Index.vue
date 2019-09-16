@@ -3,7 +3,7 @@
         <v-layout row>
             <v-flex xs12>
                 <div class="display-4 font-weight-light text-center white--text float-center" style="margin-top: 40vh; margin-left: 30vw; position: absolute; z-index: 1">性能問題</div>
-                <model-viewer src="/Model/ArcReactor/scene.gltf" autoplay background-color="#000000" preload class="google-model-viewer" camera-orbit="90deg 90deg -10"></model-viewer>
+                <model-viewer :src="process.env.BASE_URL.slice( 0, process.env.BASE_URL.length - 1 ) + '/Model/ArcReactor/scene.gltf'" autoplay background-color="#000000" preload class="google-model-viewer" camera-orbit="90deg 90deg -10"></model-viewer>
             </v-flex>
         </v-layout>
     </v-container>
