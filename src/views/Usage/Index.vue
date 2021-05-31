@@ -5,7 +5,7 @@
                 <div class="display-4 font-weight-light text-center" style="margin-top: 40vh;">用途</div>
             </v-flex>
             <v-flex xs6>
-                <model-viewer src="/Model/Mei/scene.gltf" focus-visible camera-controls autoplay background-color="#dbba00" preload class="google-model-viewer"></model-viewer>
+                <model-viewer src="/modern-web-2019/Model/Mei/scene.gltf" focus-visible camera-controls autoplay background-color="#dbba00" preload class="google-model-viewer"></model-viewer>
             </v-flex>
         </v-layout>
     </v-container>

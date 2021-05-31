@@ -32,32 +32,32 @@ export default {
             {
                 url: 'https://www.rimowa.com/fr/en/unique/customize',
                 title: 'RIMOWA',
-                img: '/img/rimowa.png'
+                img: '/modern-web-2019/img/rimowa.png'
             },
             {
                 url: 'https://domenicobrz.github.io/webgl/projects/SSRefractionDepthPeeling/',
                 title: 'Guan Yu Figure',
-                img: '/img/guan.png'
+                img: '/modern-web-2019/img/guan.png'
             },
             {
                 url: 'https://toyotagazooracing.com/jp/gr/config/#/grspriusphv',
                 title: 'Toyota',
-                img: '/img/toyota.png'
+                img: '/modern-web-2019/img/toyota.png'
             },
             {
                 url: 'https://www.smart.com/de/de/modelle/eq-fortwo-coupe/konfigurator',
                 title: 'Mercedes - Smart',
-                img: '/img/smart.png'
+                img: '/modern-web-2019/img/smart.png'
             },
             {
                 url: 'https://dimension.adobe.com/viewer/index.html?gv=https://dncrshare-us-east-1.cloud.adobe.io/v1/shared_asset.glb?shared_asset_base64_encode=aHR0cHM6Ly9jYy1hcGktY3AuYWRvYmUuaW8vYXBpL3YyL2RpbWVuc2lvbi9hc3NldHMvNmQxNmRhYjEtNTc0Ni00ZjJlLWFjOWYtNDRlMWQ3YmVkMjg5L29yaWdpbmFsL3ZlcnNpb24vMA==',
                 title: 'Adobe Dimension',
-                img: '/img/adobe_dimension.png'
+                img: '/modern-web-2019/img/adobe_dimension.png'
             },
             {
                 url: 'https://sketchfab.com/3d-models/upper-left-second-molar-cd766135210449ad87110dbeefa93af0',
                 title: 'Queen Mary University of London',
-                img: '/img/queen_mary.png'
+                img: '/modern-web-2019/img/queen_mary.png'
             },
         ]
 

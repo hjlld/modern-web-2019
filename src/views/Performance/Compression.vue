@@ -19,7 +19,7 @@
                         max-width="100vw"
                         transition="dialog-transition"
                     >
-                        <v-img src="/img/basis.png"></v-img>
+                        <v-img src="/modern-web-2019/img/basis.png"></v-img>
                     </v-dialog>
                 </v-flex>
                 <v-flex xs12 class="display-3 font-weight-light mb-5">

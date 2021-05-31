@@ -49,7 +49,7 @@ class OffscreenShaderRenderer {
 
         //let vs = await HTTP.Get( '/Shader/fs.glsl', null, 'text' );
 
-        let fs = await HTTP.Get( `./Shader/${ this.id }.glsl`, null, 'text' );
+        let fs = await HTTP.Get( `/modern-web-2019/Shader/${ this.id }.glsl`, null, 'text' );
 
         fs = this.parseShader( fs );
 

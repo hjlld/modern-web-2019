@@ -5,7 +5,7 @@
                 <div class="display-4 font-weight-light text-center" style="margin-top: 40vh;">AI 时代的应用开发</div>
             </v-flex>
             <v-flex xs6>
-                <model-viewer src="/Model/Robot2/scene.gltf" camera-controls autoplay background-color="#83c2f0" preload class="google-model-viewer"></model-viewer>
+                <model-viewer src="/modern-web-2019/Model/Robot2/scene.gltf" camera-controls autoplay background-color="#83c2f0" preload class="google-model-viewer"></model-viewer>
             </v-flex>
         </v-layout>
     </v-container>
