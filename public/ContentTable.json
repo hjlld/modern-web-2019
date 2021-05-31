@@ -1,12 +1,35 @@
 [
     {
-        "mainTitle": "請在網頁中使用 3D",
+        "mainTitle": "在网页中使用 3D",
         "slides": [
             {
-                "title": "首頁",
+                "title": "首页",
                 "name": "home",
                 "icon": "fa-file",
                 "path": "/"
+            },
+            {
+                "title": "关于我",
+                "name": "aboutme",
+                "icon": "fa-file",
+                "path": "/aboutme"
+            }
+        ]
+    },
+    {
+        "mainTitle": "AI 时代的应用开发",
+        "slides": [
+            {
+                "title": "AI 时代的应用开发",
+                "name": "ai",
+                "icon": "fa-file",
+                "path": "/ai"
+            },
+            {
+                "title": "GPT3",
+                "name": "gpt3",
+                "icon": "fa-file",
+                "path": "/ai/gpt3"
             }
         ]
     },
@@ -32,13 +55,13 @@
                 "icon": "fa-file"
             },
             {
-                "title": "用 3D 技術提升網頁的視覺和創意體驗",
+                "title": "用 3D 技术提升产品的视觉和创意体验",
                 "name": "webpage",
                 "path": "/usage/webpage",
                 "icon": "fa-file"
             },
             {
-                "title": "并行計算 - WebGL 2.0 Compute Shader",
+                "title": "并行计算 - WebGL 2.0 Compute Shader",
                 "name": "compute",
                 "path": "/usage/compute",
                 "icon": "fa-file"
@@ -46,10 +69,10 @@
         ]
     },
     {
-        "mainTitle": "性能問題",
+        "mainTitle": "性能问题",
         "slides": [
             {
-                "title": "性能問題",
+                "title": "性能问题",
                 "name": "performance",
                 "path": "/performance",
                 "icon": "fa-file"
@@ -102,13 +125,13 @@
                 "icon": "fa-file"
             },
             {
-                "title": "組件化的開發庫",
+                "title": "组件化的开发库",
                 "name": "ecs",
                 "path": "/easytouse/ecs",
                 "icon": "fa-file"
             },
             {
-                "title": "豐富的生態",
+                "title": "丰富的生态",
                 "name": "ecosystem",
                 "path": "/easytouse/ecosystem",
                 "icon": "fa-file"
@@ -116,10 +139,10 @@
         ]
     },
     {
-        "mainTitle": "網頁圖形的未來",
+        "mainTitle": "网页图形的未來",
         "slides": [
             {
-                "title": "網頁圖形的未來",
+                "title": "网页图形的未來",
                 "name": "future",
                 "path": "/future",
                 "icon": "fa-file"
@@ -139,10 +162,10 @@
         ]
     },
     {
-        "mainTitle": "版權",
+        "mainTitle": "版权",
         "slides": [
             {
-                "title": "版權",
+                "title": "版权",
                 "name": "credit",
                 "path": "/credit",
                 "icon": "fa-file"
@@ -150,10 +173,10 @@
         ]
     },
     {
-        "mainTitle": "感謝！",
+        "mainTitle": "感谢！",
         "slides": [
             {
-                "title": "感謝！",
+                "title": "感谢！",
                 "name": "thanks",
                 "path": "/thanks",
                 "icon": "fa-file"

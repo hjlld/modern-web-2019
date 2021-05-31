@@ -5,7 +5,7 @@
                 <div class="display-4 font-weight-light text-center" style="margin-top: 40vh;">易用性</div>
             </v-flex>
             <v-flex xs6>
-                <model-viewer src="/modern-web-2019/Model/ForestHouse/scene.gltf" camera-controls auto-rotate background-color="#83c2f0" preload class="google-model-viewer"></model-viewer>
+                <model-viewer src="/Model/ForestHouse/scene.gltf" camera-controls auto-rotate background-color="#83c2f0" preload class="google-model-viewer"></model-viewer>
             </v-flex>
         </v-layout>
     </v-container>

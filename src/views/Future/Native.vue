@@ -10,7 +10,7 @@
                     <ul style="line-height: 80px;">
                         <li class="mb-3"> <a href="https://medium.com/@babylonjs/babylon-native-821f1694fffc" target="_blank">Babylon.js Native</a></li>
                         <li class="mb-3"> <a href="https://github.com/maierfelix/nvk" target="_blank">Vulkan for Node.js</a></li>
-                        <li class="mb-3"> 使用 C++ 封裝底層接口，JavaScript 運行在 Node.js N-API 線程，使用 ANGLE 或 SPIRV-Cross 轉換著色器代碼</li>
+                        <li class="mb-3"> 使用 C++ 封装底层接口，JavaScript 运行在 Node.js N-API 线程，使用 ANGLE 或 SPIRV-Cross 转换着色器代码</li>
                     </ul>
                 </v-flex>
             </v-layout>

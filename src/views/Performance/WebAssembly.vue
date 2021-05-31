@@ -6,7 +6,7 @@
                     <a href="https://webassembly.org/" target="_blank">Web Assembly</a>
                 </v-flex>
                 <v-flex xs12 class="display-1">
-                    強推 <a href="https://assemblyscript.org/" target="_blank">Assembly Script</a>，一個嚴格模式下的 TypeScript 的子集！
+                    強推 <a href="https://assemblyscript.org/" target="_blank">Assembly Script</a>，一个严格模式下的 TypeScript 的子集！
                 </v-flex>
                 <v-flex xs4>
                     <highlight-code :code="jsCode" fontClass="headline"></highlight-code>

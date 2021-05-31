@@ -3,8 +3,8 @@
         <v-app-bar app :collapse="!ifShowDrawer" color="primary" clipped-left>
             <v-app-bar-nav-icon color="secondary" @click.stop="ifShowDrawer = !ifShowDrawer"></v-app-bar-nav-icon>
             <v-toolbar-title class="headline text-uppercase">
-                <span class="white--text">請在網頁中使用 3D</span>
-                <span class="font-weight-light grey--text text--lighten-2 subtitle-2 pl-3">HiWebGL</span>
+                <span class="white--text">WebGL 的现状与未来</span>
+                <span class="font-weight-light grey--text text--lighten-2 subtitle-2 pl-3">贝壳找房 - 郝稼力</span>
             </v-toolbar-title>
             <v-spacer></v-spacer>
         </v-app-bar>
@@ -198,5 +198,8 @@ a {
     border-radius:10px;
     box-shadow:inset 0 0 6px rgba(0,0,0,.3);
     background-color:#555;
+}
+ul {
+    list-style-type: none;
 }
 </style>

@@ -3,12 +3,12 @@
         <v-container grid-list-xl fill-height>
             <v-layout row wrap justify-center align-center align-content-center>
                 <v-flex xs12 class="display-3 font-weight-light text-center mb-5">
-                    用 3D 技術提升網頁的視覺和創意體驗
+                    用 3D 技术提升网页的视觉和创意体验
                 </v-flex>
                 <v-flex xs3 v-for="( item, i ) in items" :key="i">
                     <v-card :href="item.url" target="_blank" hover>
                         <v-img
-                            :src="'/modern-web-2019' + item.img" 
+                            :src="item.img" 
                             height="200px">
                         </v-img>
                         <v-container fill-height fluid class="black--text">
@@ -30,29 +30,29 @@ export default {
 
         items: [
             {
-                url: 'https://marmont.gucci.com/',
-                title: 'GG Marmont - GUCCI',
-                img: '/img/gg_marmont.png'
+                url: 'http://letsplay.ouigo.com/',
+                title: 'OUIGO',
+                img: '/img/ouigo.png'
             },
             {
-                url: 'https://liquid.lab.lorenzocadamuro.com/',
-                title: 'Liquid simulation',
-                img: '/img/liquid_simulation.png'
+                url: 'https://questionsinthesky.airfrance.com/',
+                title: 'Questions in the sky',
+                img: '/img/sky.png'
             },
             {
-                url: 'https://www.rickandmorty.com/?a',
-                title: 'Rick and Morty',
-                img: '/img/rick_and_morty.png'
+                url: 'https://scars.forhonorgame.com/',
+                title: 'For Honor - Scars',
+                img: '/img/scar.png'
             },
             {
-                url: 'https://www.nytimes.com/interactive/2019/07/18/science/apollo-11-moon-landing-photos-ul.html',
-                title: 'Apollo 11 As They Shot It',
-                img: '/img/apollo_11.png'
+                url: 'https://www.operanorth.co.uk/turn-of-the-screw-immersive-trailer/',
+                title: 'Turn of the Screw',
+                img: '/img/screw.png'
             },
             {
-                url: 'https://hinderer-wolff.fr/cepages-alsace',
-                title: 'Hinderer Wolff',
-                img: '/img/hinderer_wolff.png'
+                url: 'https://panamaera.fr/',
+                title: 'Panamaera',
+                img: '/img/panamaera.png'
             },
             {
                 url: 'https://nulldesign.jp/skynet/',
@@ -65,9 +65,9 @@ export default {
                 img: '/img/taotajima.png'
             },
             {
-                url: 'https://www.obynars.com/',
-                title: 'O by Nars',
-                img: '/img/o_by_nars.png'
+                url: 'https://wearezizo.com/',
+                title: 'We are Zizo',
+                img: '/img/zizo.png'
             },
         ]
 

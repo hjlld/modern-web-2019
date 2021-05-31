@@ -6,8 +6,6 @@ module.exports = {
         new WorkerPlugin()
       ]
     },
-    publicPath: process.env.NODE_ENV === 'production'
-    ? '/modern-web-2019/'
-    : '/',
+    publicPath: '/',
     outputDir: './docs'
   }

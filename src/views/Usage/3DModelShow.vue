@@ -8,7 +8,7 @@
                 <v-flex xs4 v-for="( item, i ) in items" :key="i">
                     <v-card :href="item.url" target="_blank" hover>
                         <v-img
-                            :src="'/modern-web-2019' + item.img" 
+                            :src="item.img" 
                             height="200px">
                         </v-img>
                         <v-container fill-height fluid class="black--text">
@@ -30,24 +30,24 @@ export default {
 
         items: [
             {
-                url: 'https://demos.sketchfab.com/clients/nike-configurator/index.html',
-                title: 'Nike Air Max 270',
-                img: '/img/nike_air_max_270.png'
+                url: 'https://www.rimowa.com/fr/en/unique/customize',
+                title: 'RIMOWA',
+                img: '/img/rimowa.png'
             },
             {
-                url: 'http://tapmod.studio/fender',
-                title: 'Fender Telecaster',
-                img: '/img/fender_telecaster.png'
+                url: 'https://domenicobrz.github.io/webgl/projects/SSRefractionDepthPeeling/',
+                title: 'Guan Yu Figure',
+                img: '/img/guan.png'
             },
             {
-                url: 'https://demos.sketchfab.com/clients/audi/index.html',
-                title: 'Audi Q7',
-                img: '/img/audi_q7.png'
+                url: 'https://toyotagazooracing.com/jp/gr/config/#/grspriusphv',
+                title: 'Toyota',
+                img: '/img/toyota.png'
             },
             {
-                url: 'http://tinyurl.com/y5marejw',
-                title: 'The Met Museum',
-                img: '/img/met_museum.png'
+                url: 'https://www.smart.com/de/de/modelle/eq-fortwo-coupe/konfigurator',
+                title: 'Mercedes - Smart',
+                img: '/img/smart.png'
             },
             {
                 url: 'https://dimension.adobe.com/viewer/index.html?gv=https://dncrshare-us-east-1.cloud.adobe.io/v1/shared_asset.glb?shared_asset_base64_encode=aHR0cHM6Ly9jYy1hcGktY3AuYWRvYmUuaW8vYXBpL3YyL2RpbWVuc2lvbi9hc3NldHMvNmQxNmRhYjEtNTc0Ni00ZjJlLWFjOWYtNDRlMWQ3YmVkMjg5L29yaWdpbmFsL3ZlcnNpb24vMA==',

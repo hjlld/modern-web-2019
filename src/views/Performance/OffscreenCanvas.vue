@@ -9,8 +9,8 @@
                     <highlight-code :code="code"></highlight-code>
                 </v-flex>
                 <v-flex xs12 class="display-1">
-                    <div>默認支援此特性：Chrome 69、Microsoft Edge Chromium</div>
-                    <div>需要特別設置：Firefox <code>gfx.offscreencanvas.enabled = true</code></div>
+                    <div>默认支持：Chrome 69、Microsoft Edge Chromium</div>
+                    <div>需要特別设置：Firefox <code>gfx.offscreencanvas.enabled = true</code></div>
                 </v-flex>
             </v-layout>
         </v-container>

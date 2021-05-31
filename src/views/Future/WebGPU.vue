@@ -8,13 +8,13 @@
                 <v-flex xs12 class="display-3 font-weight-light mb-5">
                     <ul style="line-height: 80px;">
                         <li class="mb-3"> GPU for the Web</li>
-                        <li class="mb-3"> 新的底層接口，開放更多 GPU 能力，接近 Metal / Vulkan / DirectX 12</li>
-                        <li class="mb-3"> 新的著色器語言（WHLSL VS SPIR-V）</li>
-                        <li class="mb-3"> 新的操作系統和底層硬件兼容性</li>
+                        <li class="mb-3"> 新的底层接口，开放更多 GPU 能力，接近 Metal / Vulkan / DirectX 12</li>
+                        <li class="mb-3"> 新的着色器语言（WGSL）</li>
+                        <li class="mb-3"> 新的操作系統和底层硬件兼容性</li>
                     </ul>
                 </v-flex>
                 <v-flex xs12 class="display-1">
-                    Babylon.js 成為首個實現 WebGPU 的 3D 引擎， <a href="https://weibo.com/tv/v/Htw2V2Ts1?fid=1034:4370346565110696" target="_blank">視頻對比 WebGL VS WebGPU</a>
+                    Babylon.js 成为首个实现 WebGPU 的 3D 引擎， <a href="https://weibo.com/tv/v/Htw2V2Ts1?fid=1034:4370346565110696" target="_blank">视频對比 WebGL VS WebGPU</a>
                 </v-flex>
             </v-layout>
         </v-container>

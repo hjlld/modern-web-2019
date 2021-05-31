@@ -6,7 +6,7 @@
                     <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">Web Component</a>
                 </v-flex>
                 <v-flex xs12 class="display-1">
-                    <code>&lt;model-viewer&gt;</code>，懶人必備！
+                    <code>&lt;model-viewer&gt;</code>，懒人必备！
                 </v-flex>
                 <v-flex xs12 class="display-1">
                     <a href="https://github.com/GoogleWebComponents" target="_blank">GoogleWebComponents</a> / <a href="https://github.com/GoogleWebComponents/model-viewer" target="_blank">model-viewer</a>
@@ -15,7 +15,7 @@
                     <highlight-code :code="code" fontClass="headline"></highlight-code>
                 </v-flex>
                 <v-flex xs6 fill-height style="height: 500px;">
-                    <model-viewer src="/modern-web-2019/Model/YoungPriestess/scene.gltf" alt="A 3D model of an astronaut" auto-rotate camera-controls background-color="#628fb0" preload class="google-model-viewer"></model-viewer>
+                    <model-viewer src="/Model/YoungPriestess/scene.gltf" alt="A 3D model of an astronaut" auto-rotate camera-controls preload class="google-model-viewer"></model-viewer>
                 </v-flex>
             </v-layout>
         </v-container>
@@ -39,7 +39,7 @@ export default {
     import '@google/model-viewer';
 
     <model-viewer 
-        src="/modern-web-2019/Model/YoungPriestess/scene.gltf" 
+        src="/Model/YoungPriestess/scene.gltf" 
         alt="A 3D model of a girl" 
         auto-rotate
         camera-controls 
