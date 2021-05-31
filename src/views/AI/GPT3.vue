@@ -6,7 +6,7 @@
                     GPT3 - 开启通用人工智能时代的怪物
                 </v-flex>
                 <v-flex xs12 class="display-3 font-weight-light text-center">
-                    <img src="/img/egg.png" width="30%" alt="">
+                    <img src="/modern-web-2019/img/egg.png" width="30%" alt="">
                 </v-flex>
                 <v-flex xs12 class="display-3 font-weight-light text-center mb-5">
                     <ul style="line-height: 80px;">

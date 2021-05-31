@@ -32,42 +32,42 @@ export default {
             {
                 url: 'http://letsplay.ouigo.com/',
                 title: 'OUIGO',
-                img: '/img/ouigo.png'
+                img: '/modern-web-2019/img/ouigo.png'
             },
             {
                 url: 'https://questionsinthesky.airfrance.com/',
                 title: 'Questions in the sky',
-                img: '/img/sky.png'
+                img: '/modern-web-2019/img/sky.png'
             },
             {
                 url: 'https://scars.forhonorgame.com/',
                 title: 'For Honor - Scars',
-                img: '/img/scar.png'
+                img: '/modern-web-2019/img/scar.png'
             },
             {
                 url: 'https://www.operanorth.co.uk/turn-of-the-screw-immersive-trailer/',
                 title: 'Turn of the Screw',
-                img: '/img/screw.png'
+                img: '/modern-web-2019/img/screw.png'
             },
             {
                 url: 'https://panamaera.fr/',
                 title: 'Panamaera',
-                img: '/img/panamaera.png'
+                img: '/modern-web-2019/img/panamaera.png'
             },
             {
                 url: 'https://nulldesign.jp/skynet/',
                 title: 'Sky Net',
-                img: '/img/sky_net.png'
+                img: '/modern-web-2019/img/sky_net.png'
             },
             {
                 url: 'http://taotajima.jp/',
                 title: 'Tao Tajima',
-                img: '/img/taotajima.png'
+                img: '/modern-web-2019/img/taotajima.png'
             },
             {
                 url: 'https://wearezizo.com/',
                 title: 'We are Zizo',
-                img: '/img/zizo.png'
+                img: '/modern-web-2019/img/zizo.png'
             },
         ]
 

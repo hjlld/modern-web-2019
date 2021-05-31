@@ -35,22 +35,22 @@ export default {
             {
                 url: 'https://www.youtube.com/watch?v=sWevv3zotXY',
                 title: 'Looking Glass',
-                img: '/img/looking_glass.jpg'
+                img: '/modern-web-2019/img/looking_glass.jpg'
             },
             {
                 url: 'https://stradavirtual.fiat.com.br/',
                 title: 'Fiat Strada',
-                img: '/img/fiat.png'
+                img: '/modern-web-2019/img/fiat.png'
             },
             {
                 url: 'https://weibo.com/tv/v/I1oqGlYjS?fid=1034:4403322317378716',
                 title: 'AR 化學教學工具',
-                img: '/img/ar_education.png'
+                img: '/modern-web-2019/img/ar_education.png'
             },
             {
                 url: 'https://www.youtube.com/watch?v=-PzeWxtOGzQ',
                 title: 'Magic Leap’s Mica at GDC 2019',
-                img: '/img/mica.jpg'
+                img: '/modern-web-2019/img/mica.jpg'
             },
         ]
 

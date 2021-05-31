@@ -3,7 +3,7 @@
         <v-layout row>
             <v-flex xs12>
                 <div class="display-4 font-weight-light text-center white--text float-center" style="margin-top: 40vh; margin-left: 30vw; position: absolute; z-index: 1">网页图形的未来</div>
-                <model-viewer src="/Model/Cuphead/scene.gltf" autoplay background-color="#16496F" preload class="google-model-viewer"  camera-orbit="0deg 75deg 0m"></model-viewer>
+                <model-viewer src="/modern-web-2019/Model/Cuphead/scene.gltf" autoplay background-color="#16496F" preload class="google-model-viewer"  camera-orbit="0deg 75deg 0m"></model-viewer>
             </v-flex>
         </v-layout>
     </v-container>

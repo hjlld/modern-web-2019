@@ -119,31 +119,6 @@ export default new Router({
       component: () => import(/* webpackChunkName: "native" */ './views/Future/Native.vue')
     },
     {
-      path: '/tutorial',
-      name: 'tutorial',
-      component: () => import(/* webpackChunkName: "tutorial" */ './views/Tutorial/Index.vue')
-    },
-    {
-      path: '/tutorial/common',
-      name: 'common',
-      component: () => import(/* webpackChunkName: "common" */ './views/Tutorial/Common.vue')
-    },
-    {
-      path: '/tutorial/webgl',
-      name: 'twebgl',
-      component: () => import(/* webpackChunkName: "twebgl" */ './views/Tutorial/WebGL.vue')
-    },
-    {
-      path: '/tutorial/webgpu',
-      name: 'twebgpu',
-      component: () => import(/* webpackChunkName: "twebgpu" */ './views/Tutorial/WebGPU.vue')
-    },
-    {
-      path: '/tutorial/community',
-      name: 'community',
-      component: () => import(/* webpackChunkName: "community" */ './views/Tutorial/Community.vue')
-    },
-    {
       path: '/credit',
       name: 'credit',
       component: () => import(/* webpackChunkName: "credit" */ './views/Credit.vue')
