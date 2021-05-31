@@ -6,7 +6,7 @@
                     <a href="https://developer.mozilla.org/zh-TW/docs/Web/API/Web_Workers_API/Using_web_workers" target="_blank">Web Workers</a>
                 </v-flex>
                 <v-flex xs12 class="display-1">
-                    忘記 <code>worker.postMessage()</code>，結識 <a href="https://github.com/GoogleChromeLabs/comlink" target="_blank">Comlink</a>！
+                    忘记 <code>worker.postMessage()</code>，给你介绍个新朋友 <a href="https://github.com/GoogleChromeLabs/comlink" target="_blank">Comlink</a>！
                 </v-flex>
                 <v-flex xs8>
                     <highlight-code :code="mainCode" fontClass="headline"></highlight-code>

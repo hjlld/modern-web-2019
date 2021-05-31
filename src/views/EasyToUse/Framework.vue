@@ -7,9 +7,9 @@
                 </v-flex>
                 <v-flex xs12 class="display-3 font-weight-light mb-5">
                     <ul style="line-height: 80px;">
-                        <li class="mb-3"><a href="https://www.babylonjs.com/" target="_blank">Babylon.js</a> 一個流程化的、基於現代引擎思想的成熟的 3D 引擎，微軟出品</li>
-                        <li class="mb-3"><a href="https://threejs.org/" target="_blank">Three.js</a> 一個功能豐富的 3D 開發工具箱，由開源社區貢獻豐富的生態</li>
-                        <li class="mb-3"><a href="https://playcanvas.com/" target="_blank">PlayCanvas</a> 一個以 Web 遊戲為主要目標的遊戲引擎框架，被 Snapchat 收購</li>
+                        <li class="mb-3"><a href="https://www.babylonjs.com/" target="_blank">Babylon.js</a> 一个流程化的、基于现代引擎思想的成熟的 3D 引擎，微软出品</li>
+                        <li class="mb-3"><a href="https://threejs.org/" target="_blank">Three.js</a> 一个功能丰富的 3D 开发工具箱，由开源社区贡献丰富的生态</li>
+                        <li class="mb-3"><a href="https://playcanvas.com/" target="_blank">PlayCanvas</a> 一个以 Web 游戏为主要目标的游戏引擎框架，被 Snapchat 收购</li>
                     </ul>
                 </v-flex>
             </v-layout>

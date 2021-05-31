@@ -3,10 +3,10 @@
         <v-container grid-list-xl fill-height>
             <v-layout row wrap justify-center align-center align-content-center>
                 <v-flex xs12 class="display-3 font-weight-light text-center mb-5">
-                    并行計算 - WebGL 2.0 Compute Shader
+                    并行计算 - WebGL 2.0 Compute Shader
                 </v-flex>
                 <v-flex xs12 class="display-1 font-weight-light text-center">
-                    雙調排序 - 這是一種可以并行計算的排序方法
+                    双调排序 - 這是一种可以并行计算的排序方法
                 </v-flex>
                 <v-flex xs4>
                     <v-card hover>

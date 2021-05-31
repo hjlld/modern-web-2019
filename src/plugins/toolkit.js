@@ -10,7 +10,7 @@ export class HTTP {
 
         }
 
-        return fetch( '/modern-web-2019' + url, param )
+        return fetch( url, param )
 
         .then( response => {
 

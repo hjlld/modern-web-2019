@@ -14,6 +14,21 @@ export default new Router({
       component: () => import(/* webpackChunkName: "home" */ './views/Home.vue')
     },
     {
+      path: '/aboutme',
+      name: 'aboutme',
+      component: () => import(/* webpackChunkName: "aboutme" */ './views/AboutMe.vue')
+    },
+    {
+      path: '/ai',
+      name: 'ai',
+      component: () => import(/* webpackChunkName: "ai" */ './views/AI/Index.vue')
+    },
+    {
+      path: '/ai/gpt3',
+      name: 'gpt3',
+      component: () => import(/* webpackChunkName: "gpt3" */ './views/AI/GPT3.vue')
+    },
+    {
       path: '/usage/',
       name: 'usage',
       component: () => import(/* webpackChunkName: "usage" */ './views/Usage/Index.vue')
@@ -102,6 +117,31 @@ export default new Router({
       path: '/future/native',
       name: 'native',
       component: () => import(/* webpackChunkName: "native" */ './views/Future/Native.vue')
+    },
+    {
+      path: '/tutorial',
+      name: 'tutorial',
+      component: () => import(/* webpackChunkName: "tutorial" */ './views/Tutorial/Index.vue')
+    },
+    {
+      path: '/tutorial/common',
+      name: 'common',
+      component: () => import(/* webpackChunkName: "common" */ './views/Tutorial/Common.vue')
+    },
+    {
+      path: '/tutorial/webgl',
+      name: 'twebgl',
+      component: () => import(/* webpackChunkName: "twebgl" */ './views/Tutorial/WebGL.vue')
+    },
+    {
+      path: '/tutorial/webgpu',
+      name: 'twebgpu',
+      component: () => import(/* webpackChunkName: "twebgpu" */ './views/Tutorial/WebGPU.vue')
+    },
+    {
+      path: '/tutorial/community',
+      name: 'community',
+      component: () => import(/* webpackChunkName: "community" */ './views/Tutorial/Community.vue')
     },
     {
       path: '/credit',

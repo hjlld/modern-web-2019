@@ -8,7 +8,7 @@
                 <v-flex xs6 v-for="( item, i ) in items" :key="i">
                     <v-card :href="item.url" target="_blank" hover>
                         <v-img
-                            :src="'/modern-web-2019' + item.img" 
+                            :src="item.img" 
                             height="200px">
                         </v-img>
                         <v-container fill-height fluid class="black--text">
@@ -21,7 +21,7 @@
                     </v-card>
                 </v-flex>
                 <v-flex xs12 class="title font-weight-light text-center">
-                    AR 短視頻道具、AR 測量工具、AR 家居適配預覽
+                    AR 短视频道具、AR 测量工具、AR 家居装修预览
                 </v-flex>
             </v-layout>
         </v-container>
@@ -38,9 +38,9 @@ export default {
                 img: '/img/looking_glass.jpg'
             },
             {
-                url: 'https://twitter.com/i/status/1151497315934494722',
-                title: 'AR Pingpong Game',
-                img: '/img/ar_pingpong.png'
+                url: 'https://stradavirtual.fiat.com.br/',
+                title: 'Fiat Strada',
+                img: '/img/fiat.png'
             },
             {
                 url: 'https://weibo.com/tv/v/I1oqGlYjS?fid=1034:4403322317378716',
