@@ -1,4 +1,5 @@
 const WorkerPlugin = require('worker-plugin');
+console.log(process.env);
 // vue.config.js
 module.exports = {
     configureWebpack: {
@@ -6,6 +7,6 @@ module.exports = {
         new WorkerPlugin()
       ]
     },
-    publicPath: '/',
+    publicPath: process.env.NODE_ENV === 'development' ? '/' : '/modern-web-2019',
     outputDir: './docs'
   }
