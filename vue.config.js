@@ -1,5 +1,4 @@
 const WorkerPlugin = require('worker-plugin');
-console.log(process.env);
 // vue.config.js
 module.exports = {
     configureWebpack: {
