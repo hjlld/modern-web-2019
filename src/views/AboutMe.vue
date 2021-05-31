@@ -8,7 +8,7 @@
                     <div class="display-2 mb-5">微博：@HiWebGL</div>
                 </v-flex>
                 <v-flex xs6 class="display-3 font-weight-light text-center">
-                    <img src="/modern-web-2019/modern-web-2019/img/hjlld.jpg" alt="">
+                    <img src="/modern-web-2019/img/hjlld.jpg" alt="">
                 </v-flex>
             </v-layout>
         </v-container>
