@@ -9,7 +9,7 @@
                     <ul style="line-height: 80px;">
                         <li class="mb-3"><a href="https://sketchfab.com/" target="_blank">Sketchfab</a> 世界上最大的模型展示网站</li>
                         <li class="mb-3"><a href="https://www.shadertoy.com/" target="_blank">Shadertoy</a> 世界上最具创意的着色器代码和程序分享网站</li>
-                        <li class="mb-3"><a href="https://poly.google.com/" target="_blank">Poly</a> Google 的 3D 艺术作品分享网站</li>
+                        <li class="mb-3"><del><a href="https://poly.google.com/" target="_blank">Poly</a> Google 的 3D 艺术作品分享网站</del></li>
                     </ul>
                 </v-flex>
             </v-layout>

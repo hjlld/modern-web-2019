@@ -3,7 +3,10 @@
         <v-container grid-list-xl fill-height>
             <v-layout row wrap justify-center align-center align-content-center>
                 <v-flex xs12 class="display-4 font-weight-light text-center mb-5 text-center">
-                    <a href="https://webgpu.io" target="_blank">WebGPU</a>
+                    <a href="https://www.w3.org/TR/webgpu/" target="_blank">WebGPU</a>
+                </v-flex>
+                <v-flex xs12 class="display-3 font-weight-light text-center mb-5 text-center">
+                    <a href="https://github.com/hjlld/LearningWebGPU" target="_blank">广告：LearningWebGPU 中文教程</a>
                 </v-flex>
                 <v-flex xs12 class="display-3 font-weight-light mb-5">
                     <ul style="line-height: 80px;">
