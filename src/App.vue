@@ -47,7 +47,7 @@ export default {
     }),
     created: async function() {
  
-        this.contentTable = await HTTP.Get('/ContentTable.json');
+        this.contentTable = await HTTP.Get('./ContentTable.json');
 
         for ( let i = 0; i < this.contentTable.length; i++ ) {
 
