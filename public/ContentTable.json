@@ -162,6 +162,17 @@
         ]
     },
     {
+        "mainTitle": "书籍推荐",
+        "slides": [
+            {
+                "title": "书籍推荐",
+                "name": "giveabook",
+                "path": "/giveabook",
+                "icon": "fa-file"
+            }
+        ]
+    },
+    {
         "mainTitle": "版权",
         "slides": [
             {
