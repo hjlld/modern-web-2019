@@ -61,7 +61,7 @@
                 "icon": "fa-file"
             },
             {
-                "title": "并行计算 - WebGL 2.0 Compute Shader",
+                "title": "并行计算 - WebGPU Compute Shader",
                 "name": "compute",
                 "path": "/usage/compute",
                 "icon": "fa-file"
@@ -157,6 +157,17 @@
                 "title": "Native",
                 "name": "native",
                 "path": "/future/native",
+                "icon": "fa-file"
+            }
+        ]
+    },
+    {
+        "mainTitle": "书籍推荐",
+        "slides": [
+            {
+                "title": "书籍推荐",
+                "name": "giveabook",
+                "path": "/giveabook",
                 "icon": "fa-file"
             }
         ]

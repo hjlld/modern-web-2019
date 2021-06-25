@@ -3,7 +3,7 @@
         <v-container grid-list-xs fill-height>
             <v-layout row wrap justify-center align-center align-content-center>
                 <v-flex xs12 class="display-4 font-weight-bold text-center vfx-text">
-                    WebGL 的现状与未来
+                    WebGL 生态与最佳实践
                 </v-flex>
             </v-layout>
         </v-container>

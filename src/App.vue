@@ -3,7 +3,7 @@
         <v-app-bar app :collapse="!ifShowDrawer" color="primary" clipped-left>
             <v-app-bar-nav-icon color="secondary" @click.stop="ifShowDrawer = !ifShowDrawer"></v-app-bar-nav-icon>
             <v-toolbar-title class="headline text-uppercase">
-                <span class="white--text">WebGL 的现状与未来</span>
+                <span class="white--text">WebGL 生态与最佳实践</span>
                 <span class="font-weight-light grey--text text--lighten-2 subtitle-2 pl-3">贝壳找房 - 郝稼力</span>
             </v-toolbar-title>
             <v-spacer></v-spacer>
@@ -47,7 +47,7 @@ export default {
     }),
     created: async function() {
  
-        this.contentTable = await HTTP.Get('./ContentTable.json');
+        this.contentTable = await HTTP.Get('/ContentTable.json');
 
         for ( let i = 0; i < this.contentTable.length; i++ ) {
 

@@ -3,7 +3,7 @@
         <v-container grid-list-xl fill-height>
             <v-layout row wrap justify-center align-center align-content-center>
                 <v-flex xs12 class="display-3 font-weight-light text-center mb-5">
-                    并行计算 - WebGL 2.0 Compute Shader
+                    并行计算 - <del>WebGL 2.0</del> WebGPU Compute Shader
                 </v-flex>
                 <v-flex xs12 class="display-1 font-weight-light text-center">
                     双调排序 - 這是一种可以并行计算的排序方法
@@ -55,7 +55,7 @@
     </v-content>
 </template>
 <script>
-import { GPUSort } from '../../plugins/toolkit';
+import { WebGPUSort } from '../../plugins/WebGPUSort';
 import HighlightCode from '../../components/HighlightCode';
 
 export default {
@@ -92,21 +92,23 @@ export default {
     ); `,
 
         gpuCode: `
-    const canvas = document.createElement( 'canvas' );
-
-    // Create WebGL2ComputeRenderingContext
-    const context = canvas.getContext( 'webgl2-compute' );
-
+this.adapter = await navigator.gpu.requestAdapter({
+    powerPreference: 'high-performance'
+});
+this.device = await this.adapter.requestDevice();
+let commandEncoder = this.device.createCommandEncoder();
+let passEncoder = commandEncoder.beginComputePass();
     ...
-
-    context.dispatchCompute( threadgroupsPerGrid, 1, 1 ); 
+passEncoder.dispatch(threadgroupsPerGrid, 1, 1);
     `
 
     }),
 
-    mounted: function() {
+    mounted: async function() {
 
-        this.GPUSort = new GPUSort();
+        this.GPUSort = new WebGPUSort();
+
+        await this.GPUSort.Init();
 
     },
 
@@ -164,11 +166,11 @@ export default {
 
         },
 
-        computeGPU() {
+        async computeGPU() {
 
             let gpuArray = this.array.slice( 0 );
 
-            let result = this.GPUSort.compute( gpuArray );
+            let result = await this.GPUSort.Run( gpuArray );
 
             this.gpuTime = result.costTime;
 

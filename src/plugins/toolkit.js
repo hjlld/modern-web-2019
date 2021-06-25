@@ -216,26 +216,26 @@ export class GPUSort {
         return true;
       };
       
-      createComputeProgram(source) {
-        // create WebGLShader for ComputeShader
-        const computeShader = this.context.createShader(this.context.COMPUTE_SHADER);
-        this.context.shaderSource(computeShader, source);
-        this.context.compileShader(computeShader);
-        if (!this.context.getShaderParameter(computeShader, this.context.COMPILE_STATUS)) {
-          console.log(this.context.getShaderInfoLog(computeShader));
-          return null;
-        }
-      
-        // create WebGLProgram for ComputeShader
-        const computeProgram = this.context.createProgram();
-        this.context.attachShader(computeProgram, computeShader);
-        this.context.linkProgram(computeProgram);
-        if (!this.context.getProgramParameter(computeProgram, this.context.LINK_STATUS)) {
-          console.log(this.context.getProgramInfoLog(computeProgram));
-          return null;
-        }
-      
-        return computeProgram;
-      };
+    createComputeProgram(source) {
+      // create WebGLShader for ComputeShader
+      const computeShader = this.context.createShader(this.context.COMPUTE_SHADER);
+      this.context.shaderSource(computeShader, source);
+      this.context.compileShader(computeShader);
+      if (!this.context.getShaderParameter(computeShader, this.context.COMPILE_STATUS)) {
+        console.log(this.context.getShaderInfoLog(computeShader));
+        return null;
+      }
+    
+      // create WebGLProgram for ComputeShader
+      const computeProgram = this.context.createProgram();
+      this.context.attachShader(computeProgram, computeShader);
+      this.context.linkProgram(computeProgram);
+      if (!this.context.getProgramParameter(computeProgram, this.context.LINK_STATUS)) {
+        console.log(this.context.getProgramInfoLog(computeProgram));
+        return null;
+      }
+    
+      return computeProgram;
+    };
 
 }
